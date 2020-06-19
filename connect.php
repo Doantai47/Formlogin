@@ -15,7 +15,8 @@ $result =pg_query($dbconn, $sql);
 $row = pg_num_rows($result);
 if ($row==1)
 {
-	echo "Login success";
+	<form action="view.html" method="POST">
+	</form>
 }
 else
 {
